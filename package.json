@@ -2,7 +2,7 @@
   "name": "DownloadPDF",
   "version": "1.0.0",
   "private": true,
-  "description": "An app for download pdf.",
+  "description": "APP to download pdf using library",
   "author": "Amitesh Singh <amitesh.jy.786@gmail.com>",
   "contributors": [
     "Amitesh Singh <amitesh.jy.786@gmail.com>"
