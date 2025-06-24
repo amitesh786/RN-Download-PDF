@@ -1,5 +1,5 @@
-# Download PDF
-A minimal React Native app that displays a full-screen background image with a button to download and preview a PDF file on both Android and iOS using `rn-fetch-blob`.
+# React Native PDF Downloader
+A minimal React Native app to download and preview PDF files with a full-screen background image.
 
 This app demonstrates:
 
