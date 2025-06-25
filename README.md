@@ -2,9 +2,18 @@
 A minimal React Native app to download and preview PDF files with a full-screen background image.
 
 This app demonstrates:
-
 - A full-screen background image
 - A single `Download` button that downloads a PDF file to the device
+
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Screenshot](#screenshot)
+- [Commands](#additional-commands)
+- [Notes](#notes)
+- [Setup](#setup)
+- [Author](#author)
 
 ## Features
 - Beautiful full-screen background image using ImageBackground
@@ -20,6 +29,7 @@ Make sure you have the following installed:
 - Android Studio (for Android)
 - CocoaPods (sudo gem install cocoapods)
 
+## Installation
 ## Step 1: Install the package
 - Go to root Folder: `npm i` or `npm install`.
 - Go to iOS folder and execute `pod install` or `pod install --repo-update`.
