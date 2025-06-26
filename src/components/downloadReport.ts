@@ -16,10 +16,6 @@ const downloadReport = () => {
       title: `Invoice.pdf`,
       path: `${dirs.DownloadDir}/Invoice.pdf`,
     },
-    useDownloadManager: true,
-    notification: true,
-    mediaScannable: true,
-    title: "Invoice.pdf",
     path: `${dirToSave}/Invoice.pdf`,
   };
 
