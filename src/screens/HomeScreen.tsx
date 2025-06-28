@@ -14,22 +14,7 @@ const backgroundImage = require("../assets/images/logo.jpg");
 
 const HomeScreen: React.FC = () => {
   const getPermission = async () => {
-    if (Platform.OS === "ios") {
-      downloadReport();
-    } else {
-      try {
-        const granted = await PermissionsAndroid.request(
-          PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
-        );
-        if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-          downloadReport();
-        } else {
-          console.log("please grant permission");
-        }
-      } catch (err) {
-        console.log("display error", err);
-      }
-    }
+    await downloadReport();
   };
 
   return (
